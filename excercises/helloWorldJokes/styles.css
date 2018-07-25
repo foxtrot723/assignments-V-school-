@@ -1,0 +1,38 @@
+body {
+    background-color:black;
+}
+
+div {
+    height:97px;
+    background-color:gray;
+}
+
+h1 {
+    text-align:center;
+    font-size:5em;
+    color:green;
+}
+
+li {
+    color:white;
+}
+
+#joke1 {
+    line-height:30px;
+}
+
+#joke2 {
+    line-height:30px;
+}
+
+#joke3 {
+    line-height:30px;
+}
+
+#joke4 {
+    line-height:30px;
+}
+
+#joke5 {
+    line-height:30px;
+}

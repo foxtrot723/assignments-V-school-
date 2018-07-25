@@ -1,0 +1,344 @@
+.Flag {
+    height:600px;
+    width:900px;
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+}
+
+#France-blue {
+    background-color:#0000ff;
+    position:relative;
+    height:200px;
+}
+
+#France-red {
+    background-color:#ff0000;
+    position:relative;
+    top:200px;
+    height:200px;
+}
+    
+#Germany-black {
+    background-color:#000000;
+    height:200px;
+}
+
+#Germany-red {
+    background-color:#ff0000;
+    height:200px;
+}
+
+#Germany-yellow {
+    background-color:#ffff00;
+    height:200px;
+}
+
+#Madagascar-white {
+    width:300px;
+    height:600px;
+    display:inline-block;
+    float:left;    
+}
+
+#Madagascar-red {
+    background-color:#fc3d32;
+    display:inline-block;
+    height:300px;
+    width:600px;
+}
+
+#Madagascar-green {
+    background-color:#007e3a;
+    display:inline-block;
+    height:300px;
+    width:600px;
+    position:relative;
+    bottom:4px;
+}
+
+#Switzerland-Flag {
+    height:600px;
+    width:600px;
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+}
+
+#Switzerland-red {
+    background-color:#d52b1e;
+    width:600px;
+    height:600px;
+}
+
+#Switzerland-white {
+    height:400px;
+    width:120px;
+    background-color:white;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    top:100px;
+}
+
+#Switzerland-white:after {
+    height:120px;
+    width:400px;
+    background-color:white;
+    position:absolute;
+    content:"";
+    left:-135px;
+    top:145px;
+}
+
+#Sweden-blue {
+    height:600px;
+    width:900px;
+    background-color:#006aa7;
+}
+
+#Sweden-yellow-hor {
+    position:relative;
+    width:900px;
+    height:90px;
+    background-color:#fecc00;
+    display:inline-block;
+    top:250px;
+}
+
+#Sweden-yellow-vert {
+    position:relative;
+    width:90px;
+    height:600px;
+    background-color:#fecc00;
+    display:inline-block;
+    left:270px;
+    top:-94px;
+}
+
+#Gambia-red {
+    background-color:#c71a20;
+    height:200px;
+}
+
+#Gambia-blue {
+    background-color:#003698;
+    box-sizing: border-box;
+    border-top:40px;
+    border-bottom:40px;
+    border-left:0;
+    border-right:0;
+    border-color: white;
+    border-style: solid;
+    height:200px;
+}
+
+#Gambia-green {
+    background-color:#00812b;
+    height:200px;
+}
+
+#Tonga-Flag {
+    height:500px;
+    width:1000px;
+    border:1px solid black;
+    background-color:#c10000;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+}
+
+#Tonga-white {
+    height:250px;
+    width:400px;
+    background-color:white;
+}
+
+#Tonga-cross-red {
+    height:200px;
+    width:80px;
+    background-color:#c10000;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    top:25px;
+}
+
+#Tonga-cross-red:after {
+    height:80px;
+    width:200px;
+    background-color:#c10000;
+    position:absolute;
+    content:"";
+    left:-60px;
+    top:60px;
+}
+
+#Japan-circle-red {
+    background-color: #bc002d;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top:150px;
+}
+
+#Greece-Flag {
+    height:544px;
+    width:900px;
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+
+}
+
+#Greece-blue-bg {
+    width:900px;
+    height:600px;
+}
+
+#Greece-top-half {
+    background-color:#0d5eaf;
+    height:300px;
+    width:900px;
+}
+
+#Greece-blue-square {
+    height:300px;
+    width:300px;
+    background-color:#0d5eaf;
+    float:left;
+}
+
+#Greece-white-cross {
+    height:300px;
+    width:60px;
+    position:relative;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#Greece-white-cross:after {
+    height:60px;
+    width:300px;
+    content:"";
+    position:absolute;
+    background-color:white;
+    top:120px;
+    left:-120px;
+}
+
+.Greece-white-bar {
+    height:60px;
+    width:600px;
+    background-color:white;
+    margin-top:60px;
+    float:right;
+    position:relative;
+}
+
+#Greece-bottom-half {
+    height:240px;
+    width:900px;
+    background-color:white;
+}
+
+.Greece-blue-bar {
+    margin-top:60px;
+    height:60px;
+    width:900px;
+    display:inline-block;
+    position:relative;
+    background-color:#0d5eaf;
+}
+
+#Niger-Flag {
+    height:600px;
+    width:700px;
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+}
+
+#Niger-orange-top {
+    width:700px;
+    height:200px;
+    background-color:#e05206;
+}
+
+#Niger-white-middle {
+    width:700px;
+    height:200px;
+    background-color:white;
+}
+
+#Niger-orange-circle {
+    height:180px;
+    width:180px;
+    border-radius:50%;
+    position:relative;
+    background-color:#e05206;
+    left:260px;
+    top:10px;
+    margin:none;
+}
+
+#Niger-green-bottom {
+    width:700px;
+    height:200px;
+    background-color:#0db02b;
+}
+
+#Maldives-red {
+    width:900px;
+    height:600px;
+    background-color:#d21034;
+}
+
+#Maldives-green {
+    height:300px;
+    width:600px;
+    background-color:#007e3a;
+    position:relative;
+    top:150px;
+    left:150px;
+}
+
+#Maldives-moon-white {
+    height:200px;
+    width:200px;
+    background-color:white;
+    border-radius:50%;
+    display:inline-block;
+    position:relative;
+    top:50px;
+    left:230px;
+}
+
+#Maldives-moon-green {
+    height:200px;
+    width:200px;
+    background-color:#007e3a;
+    border-radius:50%;
+    display:inline-block;
+    position:relative;
+    top:50px;
+    left:60px;
+}
+
+
+
+
+
+
+
+
+
+

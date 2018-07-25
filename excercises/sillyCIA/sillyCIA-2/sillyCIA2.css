@@ -1,0 +1,28 @@
+.head {
+    font-family:Georgia;
+    text-align:center;
+}
+
+#head1 {
+    color:darkgreen;
+}
+
+img {
+    float:left;
+}
+
+p {
+    line-height:25px;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+#like {
+    text-transform: uppercase;
+}
