@@ -1,0 +1,130 @@
+*, body {
+    margin:0;
+    padding:0;
+    font-family:arial;
+}
+
+html {
+    background-color:black;
+}
+
+
+
+form {
+    height:80vh;
+    width:60vh;
+    background-color:royalblue;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:25px;
+    margin-top:10vh;
+    padding:10px;
+    border:2px solid rgb(162, 162, 162);
+}
+
+h1 {
+    position:relative;
+    top:2.3vh;
+    text-align:center;
+    font-size:5vh;
+}
+
+hr {
+    position:relative;
+    margin-top:4%;
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    border-color:black;
+}
+
+#fullname {
+    top:1vh;
+}
+
+h2 {
+    position:relative;
+    margin-top:1vh;
+    font-size:3.5vh;
+    left:2vh;
+}
+
+.name-bars {
+    width:15.3vw;
+    height:3vh;
+    display:inline-block;
+    margin-top:1.5vh;
+    position:relative;
+    left:2vh;
+    font-size:2vh;
+}
+
+#age-bar {
+    height:3vh;
+    width:15.3vw;
+    margin-top:1vh;
+    position:relative;
+    left:2vh;
+    font-size:2vh;
+}
+
+#gender {
+    top:1vh;
+}
+
+.gender-buttons {
+    display:flex;
+    left:2.3vh;
+    position:relative;
+    margin-top:.2vh;
+    top:2vh;
+    height:1.8vh;
+    width:2vh;
+}
+
+p {
+    display:flex;
+    position:relative;
+    left:6vh;
+    font-size:2vh;
+    font-weight:bold;
+}
+
+#destination-head {
+    position:relative;
+    top:1.5vh;
+}
+
+#places {
+    position:relative;
+    left:25vh;
+    bottom:1.8vh;
+    width:20vh;
+    height:2.5vh;
+    box-shadow: none;
+}
+
+#diet-head {
+    top:1.8vh;
+}
+
+.checkboxes {
+    display:flex;
+    position:relative;
+    top:4.2vh;
+    left:2vh;
+    height:2vh;
+    width:2vh;
+}
+
+button {
+    font-size:2vh;
+    position:absolute;
+    align-self:center;
+    left:46vw;
+    bottom:10vh;
+    width:15vh;
+    height:3vh;
+}
+
+

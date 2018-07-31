@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Travel Form</title>
+</head>
+<body>
+<div id="background">
+    <form name="travelForm">
+        <h1>Personal Information</h1>
+        <hr>
+        <h2 id="fullname">Full Name</h2>
+        <input type="text" name="fName" placeholder="First" class="name-bars">
+        <input type="text" name="lName" placeholder="Last" class="name-bars">
+        <h2>Age</h2>
+        <input type="number" name="age" placeholder="Age" id="age-bar">
+        <h2 id="gender">Gender</h2>
+        <input type="radio" name="gender" id="male" value="male" class="gender-buttons"><p>Male</p>
+        <input type="radio" name="gender" id="female" value="female" class="gender-buttons"><p>Female</p>
+        <input type="radio" name="gender" id="other" value="other" class="gender-buttons"><p>Other</p>
+        <h2 id="destination-head">Destination</h2>
+        <select id="places" name="placeslist">
+            <option name="places" value="thailand">Thailand</option>
+            <option name="places" value="china">China</option>
+            <option name="places" value="laos">Laos</option>
+            <option name="places" value="singapore">Singapore</option>
+        </select>
+        <h2 id="diet-head">Dietary Precautions</h2>
+        <input name="dietary" type="checkbox" value="vegan" class="checkboxes"><p class="checks">Vegan</p>
+        <input name="dietary" type="checkbox" value="allergies" class="checkboxes"><p class="checks">Allergies</p>
+        <input name="dietary" type="checkbox" value="lactose" class="checkboxes"><p class="checks">Lactose</p>
+        <br />
+        <button>Submit</button>
+    </form>
+</div>
+
+    <script src="app.js" rel="stylesheet"></script>
+</body>
+</html>

@@ -61,13 +61,10 @@ function fibonacciSequence(n) {
         c = a + b
         a = b
         b = c
-        
-        if (c < n) {
-            return c
-        }
-        
+        newArr.push(a)
     }
-    console.log(c)
+    var reducer = (num1, num2) => num1 + num2
+    console.log(newArr.reduce(reducer))
 }
 
 fibonacciSequence(5)

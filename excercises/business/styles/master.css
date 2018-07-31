@@ -1,0 +1,273 @@
+*, html {
+    margin:0;
+    padding:0;
+}
+
+body {
+    height:100%;
+}
+                                                /* NAVBAR */
+#nav-bar {
+    height:8.6vh;
+    width:100vw;
+    position:fixed;
+    text-align:center;
+    z-index:100;
+    background-color:white;
+}
+                                                /* TITLE */
+#Etna-title {
+    font-family:arial;
+    font-weight: lighter;
+    font-size:5.3vh;
+    color:white;
+    position:relative;
+    top:2.2vh;
+    display:inline-block;
+    text-transform: uppercase;
+    color:rgb(0, 79, 138);
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+                                               /* ETNA LOGO */
+
+
+.logo-box-container {
+    background-color:white;
+}
+
+.logo-blue {
+    background-color:rgb(0, 79, 138);
+}
+
+.logo-white {
+    background-color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.logo-orange-circles {
+    background-color:#f8951d;
+    border-radius:50%;
+
+}
+
+                                               /* SMALL LOGO */
+
+.logo-box-small {
+    padding:1vh;
+    height:6.1vh;
+    width:6vh;
+    position:absolute;
+    display:inline-block;
+    right:0;
+    top:0;
+}
+
+.logo-blue-small {
+    height:6vh;
+    width:6vh;
+}
+
+.logo-white-small {
+    height:3vh;
+    width:4.3vh;
+    position:absolute;
+    top:2.6vh;
+    right:.9vh;
+    padding-left:.2vh;
+}
+
+.logo-orange-small {
+    height:1.5vh;
+    width:1.5vh;
+}
+                                            /* DROPDOWN MENU */
+#button {
+    z-index:1000;
+    padding:1vh;
+    height:8vh;
+    width:8vh;
+    position:absolute;
+    right:0;
+    top:0;
+    cursor:pointer;
+}
+
+.dropdown-content {
+    height:13vh;
+    width:20vh;
+    background-color:red;
+    right:-20vh;
+    top:8.5vh;
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:flex-start;
+}
+
+.dropdown-content a {
+    color:black;
+    display:inline-block;
+    position:relative;
+    margin-left:1.5vh;
+    font-size:2vh;
+    font-family:arial;
+    text-decoration:none;
+}
+
+#button:hover .dropdown-content {
+
+        transition:.5s;
+    display: block;
+    position:fixed;
+
+}
+
+
+                                                /* ICONS */
+#icons-container {
+    height:30vh;
+    width:5vh;
+    position:fixed;
+    top:30.5vh;
+    left:.7vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    z-index:10000;
+}
+
+.fab {
+    color:rgb(0, 79, 138);
+    opacity: 0.3;
+}
+
+#arrow-to-top-page {
+    position:absolute;
+    bottom:3vh;
+    right:4vh;
+    color:rgb(0, 79, 138);
+    font-size:3vh;
+}
+                                            /* FOOTER */
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    top:395vh;
+    height:32vh;
+    border-top:1px solid #f8951d;
+}
+
+#footer-list {
+    font-family:arial;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:10.5vh;
+    margin-top:10vh;
+}
+
+.footer-list-items {
+    text-decoration: none;
+    color:black;
+    font-size:1.8vh;
+    font-weight:bold;
+}
+
+#subscribe-text {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.9vh;
+    margin-bottom:1.5vh;
+    font-family:arial;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#subscribe-input-container {
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction:column;
+    width:40vw;
+    justify-content:center;
+}
+
+#email-input {
+    background-color:white;
+    color:rgb(0, 79, 138);
+    outline:none;
+    border:1px solid #f8951d;height:3vh;
+}
+
+#footer-submit-button {
+    margin-top:1.5vh;
+    background-color:white;
+    color:white;
+    background-color:rgb(0, 79, 138);
+    height:4vh;
+    font-weight:bolder;
+}
+
+#footer-submit-button:hover {
+    cursor:pointer;
+}
+
+#footer-submit-button:active {
+    color:#f8951d;
+    bottom:1vh;
+    transition:.3s
+}
+
+.active-hover:hover {
+    /* line-spacing:
+    word-spacing:
+    letter-spacing:
+    font-weight: */
+}
+
+#footer-home:hover {
+    margin-left:3vh;
+    transition:.3s;
+}
+
+#footer-services:hover {
+    margin-left:3vh;
+    transition:.3s;
+}
+
+#footer-about:hover {
+    margin-left:3vh;
+    transition:.3s;
+}
+
+#footer-location:hover {
+    margin-left:3vh;
+    transition:.3s;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+    font-weight:lighter;
+    text-align:center;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+    font-weight:lighter;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+    font-weight:lighter;
+}
+

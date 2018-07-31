@@ -5,7 +5,7 @@
 
 #container {
     width:700px;
-    height:500px;
+    height:900px;
     margin-left:auto;
     margin-right:auto;
     margin-top:60px;
@@ -13,40 +13,44 @@
 
 #pinkbox {
     background-color:#F5C6D6;
-    height:128px;
     width:700px;
-    border:5px solid white;
 }
 
 .pinkboxes {
-    border:5px solid white;
-    height:125px;
-    display:inline-block;
     width:175px;
     background-color: #EE2E84; 
 }
 
 .blueboxes {
     width:350px;
-    height:125px;
     background-color:#85CFD8;
-    display:inline-block;
-    border:5px solid white;
     
 }
 
-#greenbox {
-    border:5px solid white;
-    height:125px;
+.greenbox {
     width:525px;
     background-color:#8DC63F;
-    display:inline-block;
 }
 
-#orangebox {
-    border:5px solid white;
+.orangebox {
     width:175px;
-    height:125px;
     background-color:#E76E34;
-    display: inline-block; 
+}
+
+.boxes {
+    border:5px solid white;
+    display:inline-block; 
+    height:125px;
+}
+
+@media only screen and (max-width:768px) {
+    .boxes {
+        width:100%;
+        height:10vh;
+        display:block;
+        border:1px solid white;
+    }
+    #container {
+        margin:0;
+    }
 }

@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "Super Mario 256";
+    src: url('SuperMario256.eot'); /* IE9 Compat Modes */
+    src: url('SuperMario256.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         /*url('SuperMario256.woff2') format('woff2'), Super Modern Browsers */
+         /*url('SuperMario256.woff') format('woff'), Pretty Modern Browsers */
+         url('SuperMario256.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('SuperMario256.svg#svgSuperMario256') format('svg'); /* Legacy iOS */
+}
+
+*, body {
+    margin:0;
+    padding:0;
+}
+
+.brick-border {
+    background-image: url("https://lvlt.thesims3.com/sims3_asset/sims3_asset/thumb/shard000/000/026/445/94/original.jpg");
+    background-repeat:repeat-x;
+    height:3vh;
+    width:100vw;
+}
+
+p {
+    display:inline-block;
+}
+
+.bottom {
+    position:absolute;
+    bottom:0;
+}
+
+.bg-picture{
+    background-image: url("https://images5.alphacoders.com/645/645974.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:95vh;
+    width:100vw;
+}
+
+h1 {
+    font-family: "Super Mario 256";
+    position:relative;
+    text-align:center;
+    top:6vh;
+    font-size: 8vh;
+}
+
+form {
+    position:absolute;
+    height:40%;
+    width:52%;
+    background-color:rgb(38, 145, 66);
+    left:5%;
+    top:29vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border-radius:20px;
+    border:2px solid white;
+
+}
+
+.containers {
+    background-color:rgb(236, 36, 33);
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    height:30vh;
+    width:12vw;
+    justify-content:center;
+    align-items:center;
+    padding:2vh;
+    border-radius:20px;
+    border:1px solid white;
+}
+
+img {
+    height:13vh;
+    width:13vh;
+    display:block;
+    margin:auto;
+}
+
+.image-container {
+    background-color:white;
+    height:15vh;
+    width:15vh;
+    padding: 2vh;
+    border-radius:20px;
+}
+
+.inner-boxes {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.price {
+    padding:1vh;
+}
+
+.numbers {
+    font-size:4vh;
+    font-family:"Super Mario 256";
+    display:inline-block;
+}
+
+.x {
+    font-size:1.4vh;
+    position:relative;
+    bottom:.8vh;
+}
+
+.coins {
+    height:3vh;
+    width:3vh;
+    display:inline-block;
+    margin:0;
+}
+
+.input-bar {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:2vh;
+    width:10vh;
+    font-size:2vh;
+    text-align:center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: button-bevel
+  margin: 0; 
+}
+
+button {
+    position:absolute;
+    height:5vh;
+    width:8vw;
+    font-size:3vh;
+    border-radius: 5px;
+    font-family:arial;
+    top:129%;
+    border:1px solid white;
+    background-color:rgb(236, 36, 33);
+    color:white;
+}
+
+button:hover {
+    background-color:black;
+    color:rgb(236, 36, 33);
+    border:1px solid rgb(236, 36, 33);
+}
+
+#number-holder {
+    position:absolute;
+    background-color:white;
+    height:5vh;
+    width:5vh;
+    left:29.6%;
+    top:73%;
+    border:1px solid black;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#return-sum {
+    text-align:center;
+    font-size:3.5vh;
+    font-family: "Super Mario 256";
+    margin-top:8px;
+}
+
+footer {
+    height:30vh;
+    background-color:black;
+    top:92.5%;
+    position:relative;
+    z-index:-1000;
+}
+
+#green-pipe-down {
+    background-color: rgb(97, 156, 59);
+    width:7.6vh;
+    height:84%;
+    left:71.87%;
+    position:absolute;
+    border-bottom-right-radius: 15px;
+}
+
+#green-pipe-down-2 {
+    background-color:rgb(67, 135, 58);
+    width:21.7vh;
+    height:100%;
+    left:100%;
+    position:absolute;
+    
+}
+
+#green-pipe-side {
+    height:5vh;
+    width:75.95vw;
+    background-color:rgb(97, 156, 59);
+    top:70%;
+    position:absolute;
+    border-bottom-right-radius: 15px;
+    z-index:-100;
+}
+
+#green-pipe-side-2 {
+    height:5vh;
+    width:87.5vw;
+    background-color:rgb(67, 135, 58);
+    bottom:0;
+    position:absolute;
+    border-bottom-right-radius: 15px;
+    z-index:-200;
+}
+
+#footer1 {
+    color:white;
+}
+
+#footer2 {
+    color:white;
+
+}
+
+#footer3 {
+    color:white;
+
+}

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Super Mario 256";
+    src: url('SuperMario256.eot'); /* IE9 Compat Modes */
+    src: url('SuperMario256.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         /*url('SuperMario256.woff2') format('woff2'), Super Modern Browsers */
+         /*url('SuperMario256.woff') format('woff'), Pretty Modern Browsers */
+         url('SuperMario256.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('SuperMario256.svg#svgSuperMario256') format('svg'); /* Legacy iOS */
+}
+
+*, html {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:450px;
+    height:334px;
+    background-color:black;
+    position:relative;
+}
+
+.top-bar {
+    background-color:yellow;
+    height:13%;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    color:red;
+}
+
+.luigi {
+    margin-left:8%;
+    font-family:"Super Mario 256"
+}
+
+.second-bar {
+
+}
+
+.white-circle {
+
+}
+
+.luigi-image {
+
+}
+
+.about-title {
+
+}
+
+.paragraph-text {
+
+}
+
+.bottom-bar {
+
+}
+
+.mushroom-img {
+
+}

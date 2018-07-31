@@ -1,0 +1,63 @@
+*, html {
+    margin:0;
+    padding:0;
+}
+
+#header {
+    width:100vw;
+    height:10vh;
+    background-color:rgb(92, 187, 255);
+    text-align:center;
+}
+
+h1 {
+    position:relative;
+    top:2vh;
+    font-size:6vh;
+}
+
+.containers {
+    width:25vw;
+    height:20vh;
+    background-color:red;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2vh;
+    padding:20px;
+}
+
+#container-1 {
+    margin-top:3vh;
+}
+
+.forms {
+    background-color:blue;
+    height:14vh;
+    padding:20px;
+    text-align:center;
+}
+
+.inputs {
+    width:9vw;
+    height:3vh;
+    margin-left:4px;
+}
+
+span {
+    color:white;
+    font-size: large;
+
+}
+
+h2 {
+    color:white;
+}
+
+.buttons {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+    height:20px;
+    width:60px;
+}

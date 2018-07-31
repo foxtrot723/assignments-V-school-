@@ -1,17 +1,11 @@
-*, body {
+ body {
     margin:0;
     padding:0;
     box-sizing: border-box;
-}
-
-#background-image {
     background-image: url("http://marcelvogel.org/geometry/FlowerOfLife.jpg");
-    position:fixed;
-    z-index:-1000;
-    height:100%;
-    width:100%;
-    background-size: contain;
+    background-size: 26vh 26vh;
     background-position: center;
+    height:2000px;
 }
 
 nav {
@@ -21,13 +15,14 @@ nav {
     position: fixed;
     top:0;
     z-index:100;
+    right:0;
 }
 
 header {
     display:inline-block;
     position:relative;
     height:8vh;
-    left:3%;
+    left:5%;
     font-family:arial;
 }
 
@@ -35,8 +30,9 @@ header h1 {
     color:white;
     line-height: 90%;
     position:relative;
-    top:2vh;
-    font-size:5vh;
+    font-size:8vh;
+    bottom:-1.5vh;
+    margin:0;
 }
 
 .nav-list {
@@ -46,32 +42,40 @@ header h1 {
     color:white;
     height:8vh;
     width:60%;
-    top:0;
     float:right;
     text-align:center;
 }
 
 li {
-    height:8vh;
+    height:6vh;
     width:20%;
+    padding-bottom:20px;
+    padding-top:25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 li:hover {
     background-color:rgb(218, 2, 218);
     cursor: pointer;
+    background:linear-gradient(rgb(218, 2, 218), purple);
+    transition-duration:.2s;
 }
 
 .linx {
     text-decoration:none;
-    color:white;
-    position:relative;
-    top:3vh;
+    color:white; 
     font-size:3vh;
     font-family:arial;
     font-weight: lighter;
-    line-height: 100%;
-    height:8vh;
     width:100%;
+    top:1vh;
+    height:100%; 
+}
+
+.linx:hover {
+    color:black;
+    transition-duration:.8s;
 }
 
 #bar-under {
@@ -82,22 +86,121 @@ li:hover {
     top:8vh;
 }
 
+#fb-icon {
+    background-color:#3B5998;
+    height:30px;
+    width:30px;
+    color:white;
+    text-align:center;
+    padding-top:6px;
+    border-radius:2px;
+    font-size:20px;
+}
+
+#twitter-icon {
+    background-color:#1DA1F2;
+    height:30px;
+    width:30px;
+    color:white;
+    text-align:center;
+    padding-top:6px;
+    border-radius:2px;
+    font-size:20px;
+}
+
+#insta-icon {
+    background-color:#1DA1F2;
+    height:30px;
+    width:30px;
+    color:white;
+    text-align:center;
+    padding-top:6px;
+    border-radius:2px;
+    font-size:20px;
+}
+
+#youtube-icon {
+    background-color:#1DA1F2;
+    height:30px;
+    width:30px;
+    color:white;
+    text-align:center;
+    padding-top:6px;
+    border-radius:2px;
+    font-size:20px;
+}
+
+#google-icon {
+    background-color:#1DA1F2;
+    height:30px;
+    width:30px;
+    color:white;
+    text-align:center;
+    padding-top:6px;
+    border-radius:2px;
+    font-size:20px;
+}
 
 
-.blog-boxes {
-    height:35vw;
-    width:60vw;
-    border:2px solid rgb(218, 2, 218);
+
+/* #blog-box-1:hover {
+    border:4px solid red;
+}
+
+#blog-box-2:hover {
+    border:4px solid rgb(219, 150, 22);
+}
+
+#blog-box-3:hover {
+    border:4px solid rgb(242, 242, 54);
+}
+
+#blog-box-4:hover {
+    border:4px solid green;
+}
+
+#blog-box-5:hover {
+    border:4px solid blue;
+} */
+
+/* #my-foot {
+    position:absolute;
+    display:block;
+    bottom:0;
+    height:30vh;
+    width:100vw;
+}
+
+
+{
+    background-image: url("http://marcelvogel.org/geometry/FlowerOfLife.jpg");
+    top:9vh;
+    height:200px;
+    width:200px;
+    position: fixed;
+    background-repeat:repeat-y;
+    background-size:cover;
+}
+
+{
+    height:1000px;
+    width:100vw;
+    z-index:-1000;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+{
+    height:400px;
+    width:600px;
     margin-left:auto;
     margin-right:auto;
-    position:relative;
-    top:180px;
-    margin-bottom:190px;
+    position:absolute;
+    top:100px;
+    margin-bottom:100px;
     border-radius:15px;
-    background-color:white;
-}
-
-.blog-boxes:hover {
-    border:4px solid rgb(218, 2, 218);
-}
+    background-color:red;
+} */
 
