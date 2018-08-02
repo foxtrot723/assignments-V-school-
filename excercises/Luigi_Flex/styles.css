@@ -11,18 +11,21 @@
 *, html {
     margin:0;
     padding:0;
+    box-sizing:border-box;
 }
 
 .container {
-    width:450px;
-    height:334px;
+    width:800px;
+    height:600px;
     background-color:black;
-    position:relative;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
 }
 
 .top-bar {
     background-color:yellow;
-    height:13%;
+    height:15%;
     width:100%;
     display:flex;
     justify-content:flex-start;
@@ -32,33 +35,78 @@
 
 .luigi {
     margin-left:8%;
-    font-family:"Super Mario 256"
+    font-family:"Super Mario 256";
+    font-size:360%;
 }
 
 .second-bar {
-
+    height:50%;
+    width:100%;
+    background-color:red;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.white-circle {
-
+img {
+    height:70%;
 }
 
-.luigi-image {
-
+.third-bar {
+    height:25%;
+    width:100%;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 .about-title {
+    font-size:270%;
+    font-family:"Super Mario 256";
+    color:red;
+}
 
+.text-box {
+    width:30%;
+    height:40%;
+    text-align:center;
+    color:red;
 }
 
 .paragraph-text {
-
+    font-size:100%;
+    font-weight:bold;
+    line-height: 4vh;
 }
 
 .bottom-bar {
-
+    height:10%;
+    width:100%;
+    background-color:yellow;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    
 }
 
 .mushroom-img {
+    margin-right:5%;
+}
 
+@media only screen and (max-width:800px) {
+    .container {
+        width:100%;
+        height:80%;
+        background-color:black;
+        position:absolute;
+        display:flex;
+        flex-direction:column;
+    }
+    .luigi {
+        margin-left:8%;
+        font-family:"Super Mario 256";
+        font-size:8vh;
+    }
 }

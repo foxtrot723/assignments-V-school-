@@ -1,14 +1,14 @@
-var phrase = "slimy smelly solution";
+var phrase = "slimy smelly solution".split("");
 // var returnFrequency = require("readline-sync")
-var newArr = []
+var obj = {}
 function myFunction() {
     for (var i = 0; i < phrase.length; i++) {
-        newArr.push(phrase[i])
+        console.log(obj(phrase[i]))        
     }
-    console.log(newArr.push(phrase))
+
 }
 
-console.log(myFunction())
+myFunction()
 
 // function solution(str) {
 //     var obj = {}

@@ -21,7 +21,7 @@ var colorArr = ["rgb(248, 0, 3)", "rgb(255, 108, 4)", "rgb(255, 255, 4)", "rgb(1
 var currentColor = 0
 var letters = document.querySelectorAll("#title p")
 function changeColors() {
-    --currentColor    
+    currentColor--    
     if (currentColor < 0) {
         currentColor = colorArr.length -1
     } 
