@@ -1,0 +1,1 @@
+functions associated with numbers and arrays
