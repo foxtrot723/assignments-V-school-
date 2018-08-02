@@ -1,0 +1,1 @@
+This was good css practice, and I learned about flags
