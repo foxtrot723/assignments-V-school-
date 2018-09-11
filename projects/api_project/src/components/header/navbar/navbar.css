@@ -1,0 +1,140 @@
+.nav-toggle {
+    display: none;
+  }
+  
+  
+.nav-toggle-label {
+    position:absolute;
+    top:0;
+    left:0;
+    color:rgb(230, 230, 230);
+    margin-left:1em;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+  
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background:white;
+    height:4px;
+    width:2em;
+    position: relative;
+}
+  
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+  
+.nav-toggle-label span::before {
+    bottom:10px;
+}
+  
+.nav-toggle-label span::after {
+    top:10px;
+}
+  
+.navbar-container {
+    position: absolute;
+    text-align: left;
+    top:40;
+    left:0;
+    background: var(--background);
+    width:100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 300ms ease-in-out;
+}
+  
+.navbar-ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+  
+.navbar-li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    text-align: center;
+    width:100%;
+}
+  
+.links {
+    color:white;
+    text-decoration: none;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    width:100%;
+    height:auto;
+}
+  
+.links:hover {
+    color:white;
+}
+  
+.nav-toggle:checked ~ .navbar-container {
+    transform: scale(1, 1);
+}
+  
+.nav-toggle:checked ~ div ul li .links {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+  
+@media screen and (min-width:1000px) {
+    .nav-toggle-label {
+      display: none;
+    }
+  
+    .navbar-container {
+      all: unset;
+      grid-column: 3 / 4;
+    }
+  
+    .navbar-ul {
+      height:60px;
+      display:flex;
+      justify-content:flex-end;
+      align-items:center;
+    }
+  
+    .navbar-li {
+      margin:0;
+      margin-right:3em;
+    }
+  
+    .links {
+      opacity: 1;
+      font-size:1em;
+      position:relative;
+    }
+  
+    .links::before {
+      content:'';
+      display:block;
+      background-color:red;
+      position:absolute;
+      height:5px;
+      top: -1em;
+      left:0;
+      right:0;
+      transform: scale(0, 1);
+      transition: transform ease-in-out 150ms;
+    }
+  
+    .links:hover::before {
+      transform: scale(1, 1);
+      transition: transform ease-in-out 250ms;
+      background-color:red;
+    }
+
+    .header-wrap {
+        width:100%;
+    }
+  }

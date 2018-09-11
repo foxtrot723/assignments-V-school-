@@ -1,0 +1,19 @@
+{
+    "breed": "GSP",
+    "age": "Puppy",
+    "legs": 4,
+    "isPureBreed": true,
+    "puppyFriends": [
+        {
+            "breed": "pit",
+            "age": "old",
+            "legs": "4"
+
+        },
+        {
+            "breed": "pit",
+            "age": "old",
+            "legs": "4"
+        }
+    ]
+}

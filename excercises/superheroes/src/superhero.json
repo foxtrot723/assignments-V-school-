@@ -1,0 +1,24 @@
+{
+    "heroes": [
+        {
+            "name": "Batman",
+            "realName": "Bruce Wayne",
+            "nemesis": "The Joker",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCt9CDHFE-JQCZsws6MkNfM2LkQI4_fzpoITxMJGQIoaLHPq4wgQ",
+            "catchPhrase": "I'm mother fuckin batman"
+        },
+        {
+            "name": "Superman",
+            "realName": "Kal El",
+            "nemesis": "Batman",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWZ3feYBFtzVXLbXrHIV0wwNVvxivAtMdT2qKhuWvyDqdAvofv",
+            "catchPhrase": "I'm mother fuckin superman"
+        },
+        {
+            "name": "Superwoman",
+            "realName": "Kristin Wells",
+            "nemesis": "The Joker",
+            "image": "https://upload.wikimedia.org/wikipedia/en/8/81/SuperwomanLoisLane.PNG",
+            "catchPhrase": "I'm mother fuckin a female"
+        }
+]}

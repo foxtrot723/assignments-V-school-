@@ -1,0 +1,84 @@
+{"menu": {
+    "appetizers": [
+        {
+            "name": "french fries",
+            "ingredients": ["potato", "salt", "oils"],
+            "price": 3.54
+        },
+        {
+            "name":"fried zuchinni",
+            "ingredients":["zeuchinni", "bread crumbs", "oils"],
+            "price": 3.54
+        },
+        {
+            "name":"buffalo wings",
+            "ingredients":["sugar", "spice", "everything nice"],
+            "price": 4.49
+        }
+    ],
+    "cold sandwiches": [
+        {
+            "name": "chicken",
+            "ingrendients": ["lettuce", "wheat bread", "pepper"],
+            "price": 7.21
+        },
+        {
+            "name": "roast beef",
+            "ingredients": ["lettuce", "tomato", "peppers", "white bread"],
+            "price": 7.21
+        },
+        {
+            "name": "ham",
+            "ingredients": ["lettuce", "wheat bread", "tomato", "mayonaise"],
+            "price": 7.21
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "name": "chicken",
+            "ingrendients": ["lettuce", "wheat bread", "pepper", "cheese"],
+            "price": 8.21
+        },
+        {
+            "name": "roast beef",
+            "ingredients": ["lettuce", "tomato", "peppers", "white bread", "cheese"],
+            "price": 8.21
+        },
+        {
+            "name": "steak",
+            "ingredients": ["lettuce", "wheat bread", "tomato", "mayonaise", "cheese"],
+            "price": 8.21
+        }
+    ],
+    "desserts": [
+        {
+            "name": "chocolate cake",
+            "ingredients": ["chocolate", "dark chocolate", "more chocolate"],
+            "price": 5.39
+        },
+        {
+            "name": "ice cream sundae",
+            "ingredients": ["vanilla", "cherry", "caramel", "chocolate syrup"],
+            "price": 5.39
+        },
+        {
+            "name": "cheese cake",
+            "ingredients": ["cheese", "cake", "cherry"],
+            "price": 5.39
+        }
+    ],
+    "drinks": [
+        {
+            "name": "coke",
+            "ingredients": ["syrup", "sugar"],
+            "price": 1.64
+        },
+        {
+            "name": "dr. pepper",
+            "ingredients": ["syrup", "sugar"],
+            "price": 1.64
+        }
+    ]
+}
+
+}

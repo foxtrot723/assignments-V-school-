@@ -1,0 +1,13 @@
+#display {
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+@media (min-width: 600px) {
+    #display {
+        width: 200px;
+        display: inline-block;
+    }
+}

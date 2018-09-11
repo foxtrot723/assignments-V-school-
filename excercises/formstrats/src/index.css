@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:black;
+}
+
+.my-form-box {
+  width: 600px;
+  height: 450px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+  display:grid;
+}
+
+input {
+  height:30px;
+  background-color:black;
+  color:white;
+  text-align:center;
+}
+
+.input-1 {
+  border: 3px solid red;
+}
+
+.input-2 {
+  border:3px solid orange;
+}
+
+.input-3 {
+  border:3px solid yellow;
+}
+
+.input-4 {
+  border:3px solid green;
+}
+
+.input-5 {
+  border:3px solid blue;
+}
+
+.input-6 {
+  border:3px solid purple;
+}
+
+.my-button {
+  font-size: large;
+  width:150px;
+  height:35px;
+  margin:auto;
+  color:rgb(116, 115, 116);
+  background-color:black;
+  border: 2px solid rgb(62, 60, 60);
+  margin-top:20px;
+}
+
+.info-card {
+  background-color:white;
+  width:600px;
+  margin:auto;
+  border-radius:1%;
+}
+
+.title {
+  text-align:center;
+}
+
+.email {
+
+}
+
+.age {
+
+}
+
+.phone {
+
+}
+
+.password {
+
+}

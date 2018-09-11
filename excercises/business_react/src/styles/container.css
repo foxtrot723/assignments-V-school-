@@ -1,0 +1,11 @@
+.box-container {
+    height:500px;
+    width:100%;
+    position:absolute;
+    /* background-color:black; */
+    top: 25%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    /* z-index:100; */
+}

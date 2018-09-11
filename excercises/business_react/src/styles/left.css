@@ -1,0 +1,8 @@
+.left-container {
+    height:90vh;
+    width:400px;
+    float:left;
+    clear: inherit;
+    position:absolute;
+    background-color:black;
+}

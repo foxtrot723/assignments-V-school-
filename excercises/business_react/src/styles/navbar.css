@@ -1,0 +1,135 @@
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+
+  .menu-toggle {
+    display: inline-block;
+    padding: .10em 5px;
+    line-height: -30em;
+    font-size: 2.6em;
+    color: #333;
+    /* position:absolute; */
+    right:30px;
+    top:7px;
+    color: rgb(37, 216, 251);
+    position:fixed;
+    border:none;
+  }
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+    color: rgb(37, 216, 251);
+    outline:none;
+}
+
+.menu-toggle.change {
+  outline:none;
+  border:none;
+}
+
+.main-menu {
+    position: absolute;
+    right: -500px;
+    top: 0;
+    height: 100%;
+    /* overflow-y: scroll; */
+    overflow-x: visible;
+    transition: right 0.6s ease,
+    box-shadow 0.9s ease;
+    color:white;
+    z-index:5000;
+
+  }
+
+  .main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 2.5em 0 0;
+    /* Hide shadow w/ -8px while 'closed' */
+    -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+       -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+            box-shadow: -8px 0 8px rgba(0,0,0,.5);
+    min-height: 100%;
+    width: 400px;
+    background: #1a1a1a;
+  }
+
+  .main-menu a {
+    display: block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #383838;
+    z-index:2000;
+  }
+
+  .main-menu li:first-child a {
+    border-top: 1px solid #383838;
+  }
+  
+  .main-menu a:hover,
+  .main-menu a:focus {
+    background: #333;
+    /* text-decoration: underline; */
+    color: rgb(37, 216, 251);
+  }
+  
+  .main-menu .menu-close {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:20px;
+    z-index:1000;
+  }
+
+.main-menu:target,
+.main-menu[aria-expanded="true"] {
+  right: 0;
+  outline: none;
+  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+}
+
+.main-menu:target .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+}
+
+.main-menu:target ul,
+.main-menu[aria-expanded="true"] ul {
+  position: relative;
+  z-index: 1000;
+}
+
+.main-menu:target + .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop {
+  position: absolute;
+  display: block;  
+  content: "";
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(0,0,0,.2);
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
+  .main-menu:target + .backdrop,
+  .main-menu[aria-expanded="true"] + .backdrop {
+    position: fixed;
+  }
+}

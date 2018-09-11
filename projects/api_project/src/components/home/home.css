@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css?family=Sarala');
+
+.home-page-wrap {
+    width:auto;
+    height:auto;
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+::-webkit-scrollbar { 
+    display: none;
+
+}
+
+.source-image {
+    background-size: cover;
+    background-image:url("../picture/mma-bg.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    height:100vh;
+    width:100%;
+    display:block;
+    overflow:hidden;
+    float:left;
+}
+
+.bruce-lee-container {
+    position: fixed;
+    color:white;
+    top:65%;
+    left:7%;
+    /* z-index:1; */
+    text-align:center;
+    height:200px;
+    width:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.bruce-lee-quote {
+    margin-top:.8em;
+    font-size:2.5em;
+    line-height:1.8em;
+    word-spacing: 2px;
+    font-family: "Petit Formal Script";
+    -webkit-animation: fadein 2.5s; 
+    -moz-animation: fadein 2.5s; 
+    -ms-animation: fadein 2.5s; 
+    -o-animation: fadein 2.5s; 
+    animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.bruce-lee-name {
+    font-size: .5em;
+    font-family: "Sarala"
+}
+
+.gray-divide-1 {
+    height:70px;
+    width:100%;
+    background-color:black ;
+    position:relative;
+    z-index:10;
+    overflow:hidden;
+}
+
+.source-image-2 {
+    background-size: cover;
+    background-image: url("https://szftlgs.com/wp-content/uploads/data/2018/1/2/taekwondo-wallpapers-x-mobile-WSW1012756.jpg");
+    background-repeat:no-repeat;
+    height:95vh;
+    width:100%;
+    display:block;
+    position: relative;
+    z-index:10;
+    border:3px inset solid red;
+    background-attachment: fixed;
+}
+
+.my-form {
+    position:absolute;
+    height:500px;
+    width:100%;
+    top:110%;
+    z-index:998;
+}
+
+.input-container {
+    grid-area: 0 / 1;
+    text-align:center;
+    height:60px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-left:20px;
+}
+
+.my-input {
+    height:55px;
+    width:250px;
+    border-radius:6px;
+    border:3px solid black;
+    padding:15px;
+    background-color: var(--background);
+    opacity:.8;
+    color:rgba(249, 247, 247, 0.64);
+    text-align:center;
+    margin:0;
+    font-size:1.5em;
+    outline:none;
+}
+
+.my-button {
+    height:55px;
+    width:100px;
+    text-align:center;
+    border-radius:6px;
+    background-color: var(--background);
+    color:rgba(249, 247, 247, 0.64);
+    text-transform: uppercase;
+    /* border:3px solid black; */
+    font-size:1.2em;
+    padding:0;
+    margin-left:4px;
+    outline:none;
+    border:none;
+}
+
+.my-display-query {
+    position:relative;
+    /* left:200px; */
+}
+
+/* .my-input:hover {
+
+} */
+
+.my-button:hover {
+    color:white;
+    cursor:pointer;
+}
+
+ul {
+    margin-top:0;
+}
+
+.options-container {
+    height:270px;
+    width:355px;
+    position:relative;
+    overflow:hidden;
+    color:rgba(249, 247, 247, 0.64);
+    background-color: var(--background);
+    border-radius:6px;
+    margin-top:4px;
+    margin-left:20px;
+    display:flex;
+    flex-direction:column;
+    /* transform: scale(0, 1);
+    transform-origin: top; */
+    transition: ease-in-out;
+}
+
+.list-items {
+    list-style:none;
+    /* text-align:center; */
+    text-transform:uppercase;
+    margin-top:5px;
+}
+
+.black-top {
+    height:250px;
+    width:100%;
+    background-color:black;
+    display: none;
+}
+
+.test {
+    display:none;
+}
+
+@media only screen and (max-width:800px) {
+    .source-image{ 
+        /* display:none; */
+        background-color:black;
+        height:400px;
+        width:100%;
+    }
+
+    .gray-divide-1 {
+        height:200px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+    }
+
+    .bruce-lee-container {
+        position:absolute;
+        z-index:100;
+        width:80%;
+        font-size:40%;
+        top:400px;
+        text-align:center;
+    }
+
+    .input-container {
+        margin:auto;
+        display:flex;
+        justify-content:center;
+    }
+
+    .options-container {
+        margin:auto;
+    }
+
+    .my-form {
+        top:840px;
+    }
+
+    .source-image-2 {
+        /* height:500px; */
+    }
+
+    .black-top {
+        display:block;
+    }
+}

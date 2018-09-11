@@ -3,7 +3,6 @@ const chessPlayers = {
     lastName: "Olson",
     age: 21,
     favoriteOpenings: [
- 
                 {
                     title: "The Ruy Lopez",
                     players: ["Bobby Fischer", "Joe Kenoli"],
@@ -113,7 +112,6 @@ const chessPlayers = {
                     variation:"advanced"
                 }
     ],
-        
     
     winners: ["Bobby Fischer", "Mikhail Botvanik", "Wesley So", "Bobby Fischer", "Tigran Petrosian", "Magnus Carlsen",
     "Gary Kasparov", "Bobby Fischer", "Grishnund Anand", "Anatoly Karpov", "Tigran Petrosian", "Jose Raul Capablanca", "Bobby Fischer",

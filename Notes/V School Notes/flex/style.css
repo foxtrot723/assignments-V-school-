@@ -1,0 +1,14 @@
+/* Two Axis */
+/* justify-content: space-evenly, space-around, space-between, flex-start, flex-end,  */
+/* align-content: */
+.main-container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container > div {
+  flex: 1;
+}

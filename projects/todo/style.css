@@ -1,0 +1,76 @@
+*, html {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:1200px;
+    height:100vh;
+    background-color:blue;
+    margin:auto;
+}
+
+header {
+    text-align:center;
+    color:white;
+    position:relative;
+    top:22px;
+    font-size:32px;
+    font-family: arial;
+    font-weight:bold;
+}
+
+form {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+
+input {
+    margin-right:10px;
+    height:4vh;
+    width:27vh;
+}
+
+button {
+    height:7vh;
+    width:15vh;
+    border-radius:50%;
+}
+
+#items {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-gap:4px;
+    background-color:grey;
+    margin-top:30px;
+    padding:5px;
+}
+
+.todoItem {
+    background-color:white;
+    border-radius:3%;
+    border: 1px solid black;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    padding:15px;
+}
+
+#slash-through-title {
+    font-weight:bold;
+    font-size:1.4em;
+}
+
+.delete-button {
+    border-radius:50%;
+    height:6vh;
+    width:15vh;
+}
+
+#checks {
+
+}
